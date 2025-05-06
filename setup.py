@@ -7,7 +7,7 @@ if __name__ == '__main__':
         description='Libreria que te proporciona direcciones reales de Estados Unidos',
         license='MIT',
         url='https://github.com/MrXetwy21/XetMap',
-        version='1.1',
+        version='1.2',
         author='MrXetwy21',
         author_email='Xetwy21@gmail.com',
         packages=find_packages(),
