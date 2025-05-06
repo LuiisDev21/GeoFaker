@@ -30,7 +30,6 @@ class XMap:
     @classmethod
     def _load_data(cls):
         if cls._data is None:
-            # Usar importlib.resources para acceder al archivo usa.json dentro del paquete
             with importlib.resources.files('XetMap.data').joinpath('usa.json').open('r', encoding='utf-8') as f:
                 data = json.load(f)
                 cls._data = data['addresses']
