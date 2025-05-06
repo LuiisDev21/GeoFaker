@@ -1,0 +1,1 @@
+recursive-include XetMap/data *.json

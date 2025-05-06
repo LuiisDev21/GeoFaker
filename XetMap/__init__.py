@@ -1,1 +1,1 @@
-from Func import * 
+from .Func import *

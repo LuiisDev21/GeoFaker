@@ -4,6 +4,7 @@ import json
 import os
 import random
 import names
+import importlib.resources
 
 states = {
     'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona', 'AR': 'Arkansas',
@@ -29,8 +30,8 @@ class XMap:
     @classmethod
     def _load_data(cls):
         if cls._data is None:
-            json_path = os.path.join(os.path.dirname(__file__), 'data', 'usa.json')
-            with open(json_path, 'r', encoding='utf-8') as f:
+            # Usar importlib.resources para acceder al archivo usa.json dentro del paquete
+            with importlib.resources.files('XetMap.data').joinpath('usa.json').open('r', encoding='utf-8') as f:
                 data = json.load(f)
                 cls._data = data['addresses']
 
