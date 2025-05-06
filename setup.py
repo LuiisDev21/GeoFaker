@@ -3,11 +3,11 @@ from setuptools import setup, find_packages
 if __name__ == '__main__':
 
     setup(
-        name='XetMap',
+        name='xetmap',
         description='Libreria que te proporciona direcciones reales de Estados Unidos',
         license='MIT',
         url='https://github.com/MrXetwy21/XetMap',
-        version='1.0',
+        version='1.1',
         author='MrXetwy21',
         author_email='Xetwy21@gmail.com',
         packages=find_packages(),
@@ -25,7 +25,7 @@ if __name__ == '__main__':
         "Topic :: Software Development :: Testing",
         "Topic :: Utilities"
         ],
-        install_requires=["json", "random", "names", "os"],
+        install_requires=["names"],
         python_requires='>=3.10',
         
     )
