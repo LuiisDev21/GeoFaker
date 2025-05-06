@@ -23,7 +23,7 @@ XMap.LoadMap()
 # Obtener diferentes datos de la dirección actual
 print(XMap.GetMap('address1'))   # Dirección principal
 print(XMap.GetMap('city'))       # Ciudad
-print(XMap.GetMap('state'))      # Estado (nombre completo en español)
+print(XMap.GetMap('state'))      # Estado
 print(XMap.GetMap('PostalCode')) # Código postal
 print(XMap.GetMap('Phone'))      # Teléfono 
 print(XMap.GetMap('User'))       # Usuario 
