@@ -17,20 +17,46 @@ pip install XetMap
 ```python
 from XetMap import XMap
 
-# Cargar una dirección 
-XMap.LoadMap()
+# Cargar una nueva instancia ./utils, defs....
+def XmapNewInstance():
+    try:
+        XMap.LoadMap()
+        return {
+            "street": XMap.GetMap("address1"),
+            "city": XMap.GetMap("city"),
+            "state": XMap.GetMap("state"),
+            "stid": XMap.GetMap("StateCode"),
+            "zipp": XMap.GetMap("PostalCode"),
+            "num": XMap.GetMap("Phone"),
+            "usuario": XMap.GetMap("User"),
+            "password": XMap.GetMap("Pass"),
+            "mail": XMap.GetMap("Mail"),
+            "name": XMap.GetMap("Fname"),
+            "last": XMap.GetMap("Lname"),
+        }
+    except Exception as e:
+        print(f"Error loading XMap data: {e}")
+        return None
 
-# Obtener diferentes datos de la dirección actual
-print(XMap.GetMap('address1'))   # Dirección principal
-print(XMap.GetMap('city'))       # Ciudad
-print(XMap.GetMap('state'))      # Estado
-print(XMap.GetMap('PostalCode')) # Código postal
-print(XMap.GetMap('Phone'))      # Teléfono 
-print(XMap.GetMap('User'))       # Usuario 
-print(XMap.GetMap('Mail'))       # Correo 
-print(XMap.GetMap('Pass'))       # Contraseña 
-print(XMap.GetMap('Fname'))      # Nombre 
-print(XMap.GetMap('Lname'))      # Apellido 
+
+# Uso en tu proyecto
+try: 
+    NewMap  = XmapNewInstance()
+    street = NewMap['street']
+    city = NewMap['city']
+    stid = NewMap['stid']
+    zipp = NewMap['zipp']
+    state = NewMap['state']
+    num = NewMap['num']
+    usuario = NewMap['usuario']
+    password = NewMap['password']
+    mail = NewMap['mail']
+    name = NewMap['name']
+    last = NewMap['last']
+except Exception as u:
+    print(f"Error getting Xmap data: {e}")
+    return None
+
 ```
 
 ## Estructura del Proyecto
