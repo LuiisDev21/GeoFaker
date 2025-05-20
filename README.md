@@ -82,10 +82,6 @@ setup.py
 - [names](https://pypi.org/project/names/)
 - Json
 
-## Licencia
-
-MIT
-
 ---
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -147,9 +143,5 @@ setup.py
 - Python >= 3.10
 - [names](https://pypi.org/project/names/)
 - Json
-
-## License
-
-MIT
 
 ---
