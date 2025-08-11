@@ -3,13 +3,12 @@ from setuptools import setup, find_packages
 if __name__ == '__main__':
 
     setup(
-        name='xetmap',
+        name='geofaker',
         description='Libreria que te proporciona direcciones reales de Estados Unidos',
         license='MIT',
-        url='https://github.com/MrXetwy21/XetMap',
-        version='1.4',
-        author='MrXetwy21',
-        author_email='Xetwy21@gmail.com',
+        url='https://github.com/LuiisDev21/GeoFaker',
+        version='1.0',
+        author='LuiisDev21',
         packages=find_packages(),
         include_package_data=True,
         long_description=open('README.md', encoding='utf-8').read(),

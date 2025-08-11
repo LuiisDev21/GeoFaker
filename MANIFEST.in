@@ -1,1 +1,1 @@
-recursive-include XetMap/data *.json
+recursive-include GeoFaker/data *.json

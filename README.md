@@ -1,21 +1,21 @@
-# XetMap
+# GeoFaker
 
-XetMap es una librería de Python diseñada para trabajar con direcciones reales seleccionadas a partir de conjuntos de datos públicos, verificadas mediante servicios de geocodificación como la API de Google Maps. Su propósito es ofrecer datos de direcciones auténticas que se resuelven correctamente al ser geocodificadas, lo que resulta útil para pruebas, simulaciones o demostraciones que requieran ubicaciones verídicas sin comprometer datos personales.
+GeoFaker es una librería de Python diseñada para trabajar con direcciones reales seleccionadas a partir de conjuntos de datos públicos, verificadas mediante servicios de geocodificación como la API de Google Maps. Su propósito es ofrecer datos de direcciones auténticas que se resuelven correctamente al ser geocodificadas, lo que resulta útil para pruebas, simulaciones o demostraciones que requieran ubicaciones verídicas sin comprometer datos personales.
 
-Además de direcciones reales, XetMap también genera datos aleatorios complementarios como nombres, números de teléfono, direcciones de correo electrónico y otros detalles típicos de perfiles, permitiendo crear conjuntos de datos más completos y realistas para entornos de desarrollo o pruebas de sistemas que manejen información personal ficticia pero coherente.
+Además de direcciones reales, GeoFaker también genera datos aleatorios complementarios como nombres, números de teléfono, direcciones de correo electrónico y otros detalles típicos de perfiles, permitiendo crear conjuntos de datos más completos y realistas para entornos de desarrollo o pruebas de sistemas que manejen información personal ficticia pero coherente.
 
 ## Instalación
 
-Puedes instalar XetMap usando pip:
+Puedes instalar GeoFaker usando pip:
 
 ```sh
-pip install XetMap
+pip install GeoFaker
 ```
 
 ## Uso
 
 ```python
-from XetMap import XMap
+from GeoFaker import XMap
 
 # Cargar una nueva instancia ./utils, defs....
 def XmapNewInstance():
@@ -62,7 +62,7 @@ except Exception as u:
 ## Estructura del Proyecto
 
 ```
-XetMap/
+GeoFaker/
     __init__.py
     Func.py
     data/
@@ -86,24 +86,24 @@ setup.py
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-# XetMap (English)
+# GeoFaker (English)
 
-XetMap is a Python library designed to work with real-world addresses selected from public datasets, verified using geocoding services such as the Google Maps API. Its purpose is to provide authentic address data that resolves correctly when geocoded, making it ideal for testing, simulations, or demonstrations that require realistic locations without compromising personal information.
+GeoFaker is a Python library designed to work with real-world addresses selected from public datasets, verified using geocoding services such as the Google Maps API. Its purpose is to provide authentic address data that resolves correctly when geocoded, making it ideal for testing, simulations, or demonstrations that require realistic locations without compromising personal information.
 
-In addition to real addresses, XetMap also generates complementary random data such as names, phone numbers, email addresses, and other typical profile details—allowing you to create richer, more realistic datasets for development or testing environments involving fictitious but coherent personal information.
+In addition to real addresses, GeoFaker also generates complementary random data such as names, phone numbers, email addresses, and other typical profile details—allowing you to create richer, more realistic datasets for development or testing environments involving fictitious but coherent personal information.
 
 ## Installation
 
-You can install XetMap using pip:
+You can install GeoFaker using pip:
 
 ```sh
-pip install XetMap
+pip install GeoFaker
 ```
 
 ## Usage
 
 ```python
-from XetMap import XMap
+from GeoFaker import XMap
 
 # Load a random address
 XMap.LoadMap()
@@ -124,7 +124,7 @@ print(XMap.GetMap('Lname'))      # Random last name
 ## Project Structure
 
 ```
-XetMap/
+GeoFaker/
     __init__.py
     Func.py
     data/
