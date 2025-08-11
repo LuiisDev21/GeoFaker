@@ -59,5 +59,3 @@ class XMap:
         if key == 'Lname':
             return names.get_last_name()
         return cls._current.get(key, None)
-
-
