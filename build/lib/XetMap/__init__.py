@@ -1,1 +1,0 @@
-from .Func import *

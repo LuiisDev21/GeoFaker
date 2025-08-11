@@ -7,7 +7,7 @@ if __name__ == '__main__':
         description='Libreria que te proporciona direcciones reales de Estados Unidos',
         license='MIT',
         url='https://github.com/LuiisDev21/GeoFaker',
-        version='1.0',
+        version='1.1',
         author='LuiisDev21',
         packages=find_packages(),
         include_package_data=True,
