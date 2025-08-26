@@ -1,3 +1,9 @@
+[![PyPI version](https://img.shields.io/pypi/v/GeoFaker.svg)](https://pypi.org/project/GeoFaker/)
+[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
+
+
 # GeoFaker
 
 GeoFaker is a Python library designed to work with real-world addresses selected from public datasets, verified using geocoding services such as the Google Maps API. Its purpose is to provide authentic address data that resolves correctly when geocoded, making it ideal for testing, simulations, or demonstrations that require realistic locations without compromising personal information.
